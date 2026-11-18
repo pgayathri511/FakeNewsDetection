@@ -1,11 +1,10 @@
-### Fake News Detection using BERT
+### Fake News Detection using BERT | NLP | Deep Learning
 
-I developed an NLP-based Fake News Detection system using the BERT pretrained Transformer model. The objective of the project is to classify news articles as REAL or FAKE based on their textual content.
+- Developed a binary news classification system using pretrained BERT to categorize news articles as real or fake.
+- Prepared and analyzed a labeled news dataset, including data cleaning, duplicate removal, label preparation, and train/test splitting.
+- Fine-tuned BERT Base Uncased using PyTorch and Hugging Face Transformers.
+- Evaluated the model using accuracy, precision, recall, F1-score, and confusion matrix.
+- Implemented real-time text predictions and saved the trained model and tokenizer for reuse.
+- Built a Flask REST API to expose the trained model for news classification.
 
-I used the Fake and Real News Dataset containing labeled news articles. I performed data inspection, preprocessing, duplicate removal, and train/test splitting. I used the BERT tokenizer to convert the news text into input IDs and attention masks.
-
-I loaded the pretrained BERT Base Uncased model with a sequence classification head and fine-tuned it on the news dataset using PyTorch and Hugging Face Transformers.
-
-I evaluated the model using accuracy, precision, recall, F1-score, and a confusion matrix. I also implemented predictions for new news articles, saved the trained model and tokenizer, and created a Flask REST API to serve predictions.
-
-**Technologies:** Python, NLP, BERT, PyTorch, Hugging Face Transformers, Pandas, Scikit-learn, Google Colab, Flask, REST API.
+**Tech Stack:** Python, BERT, NLP, PyTorch, Hugging Face, Pandas, Scikit-learn, Flask, REST API, Google Colab.
